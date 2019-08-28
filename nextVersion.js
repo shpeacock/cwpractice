@@ -5,7 +5,7 @@ function nextVersion(version){
         if(arr[i] + 1 == 10 && i != 0){
           arr[i] = 0;
         }
-        else if(arr[i] ==0 && arr.length >1) {
+        else if(arr[i] ==0 && arr.length >1 && i !=0) {
             continue;
         }
         else {
